@@ -1,5 +1,5 @@
 Clear-Host
-Write-Output "Keeping te PC awake .."
+Write-Output "Keeping the PC awake .."
 
 $WShell = New-Object -com "Wscript.Shell"
 
