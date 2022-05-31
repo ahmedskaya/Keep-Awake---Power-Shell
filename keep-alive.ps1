@@ -1,7 +1,7 @@
 Clear-Host
 Write-Output "Keeping te PC awake .."
 
-$WShell = Nen-Object -com "Wscript.Shell"
+$WShell = New-Object -com "Wscript.Shell"
 
 while ($true)
 {
